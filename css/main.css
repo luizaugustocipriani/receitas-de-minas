@@ -1,16 +1,39 @@
 h1{
 color: rgb(250, 211, 160);
 font-size: 64px;
+margin-top: 0;
 }
+
 
 body{
     color: rgb(97, 5, 5);
     background-color: rgb(214, 138, 62);
+    font-family: 'poppins', sans-serif;
+    background: linear-gradient(to right, #d38312,);
 }
+
 
 button{
     color: rgb(97, 5, 5);
     background-color: rgb(250, 211, 160);
-    border: 0px
-    
+    border: 0px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+img{
+border-radius: 20px;
+width: 100%;
+max-width: 350px;
+display: block;
+margin-bottom: 15px;
+}
+
+#segredo {
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
